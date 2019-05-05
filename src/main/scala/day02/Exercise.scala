@@ -29,14 +29,14 @@ object Exercise {
     println("lst5 " + lst5)
 
     val lst6 = lst5.flatten
-    println(lst6)
+    println("flatten： " + lst6)
 
     val lines = List("aa bb dd ", "dfa sdfa", "dd gg hh")
     val words = lines.map(_.split(" ")).flatten
-    println(words)
+    println("map: " + words)
 
     val words2 = lines.flatMap(_.split(" "))
-    println(words2)
+    println("flatMap: " + words2)
 
     val sum1 = lst1.sum
     val arr = Array(1,2,3,4,5,6,7,8)
